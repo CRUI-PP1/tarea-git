@@ -9,7 +9,7 @@
 ## Ejercicio 1: Crear y trackear un archivo
 
 1.  **Cree un archivo:**
-    * Dentro de la carpeta `mi_primer_repo_git`, cree un archivo de texto simple denominado `primer_archivo.txt`. Puede utilizar el Bloc de notas u otro editor de texto, o crearlo mediante clic derecho -> Nuevo -> Documento de texto y renombrándolo (asegúrese de que la extensión sea `.txt`).
+    * Dentro de la carpeta en donde se clonado el repositorio, cree un archivo de texto simple denominado `primer_archivo.txt`. Puede utilizar el Bloc de notas u otro editor de texto, o crearlo mediante clic derecho -> Nuevo -> Documento de texto y renombrándolo (asegúrese de que la extensión sea `.txt`).
     * Ábralo con un editor e ingrese el siguiente contenido:
         ```
         Mi Primer Repositorio
@@ -88,7 +88,7 @@
 ## Ejercicio 4: Crear y agregar un nuevo archivo
 
 1.  **Cree un segundo archivo:**
-    * En la carpeta `mi_primer_repo_git`, cree un nuevo archivo de texto denominado `segundo_archivo.txt`.
+    * En la carpeta del repositorio, cree un nuevo archivo de texto denominado `segundo_archivo.txt`.
     * Puede dejarlo vacío o agregar un texto simple como: `Este es mi segundo archivo`. Guarde el archivo.
 
 2.  **Verifique el estado:**
@@ -144,7 +144,7 @@
 ## Ejercicio 6: Eliminar un archivo del repositorio
 
 1.  **Consigna:** Elimine el archivo `segundo_archivo.txt` del proyecto utilizando las herramientas del sistema operativo y luego registre dicha eliminación en Git.
-    * Primero, elimine el archivo `segundo_archivo.txt` de la carpeta `mi_primer_repo_git` utilizando el método que prefiera (por ejemplo, seleccionándolo y presionando la tecla Suprimir en el Explorador de Archivos, o ejecutando `del segundo_archivo.txt` en la consola).
+    * Primero, elimine el archivo `segundo_archivo.txt` de la carpeta del repositorio utilizando el método que prefiera (por ejemplo, seleccionándolo y presionando la tecla Suprimir en el Explorador de Archivos, o ejecutando `del segundo_archivo.txt` en la consola).
 
 2.  **Verifique el estado después de la eliminación manual:**
     * Ejecute `git status` en la consola.
@@ -169,7 +169,7 @@
 6.  **Verifique el estado final y el directorio:**
     * Ejecute `git status`.
         * **Pregunta:** ¿Cuál es el estado actual del repositorio?
-    * Revise el contenido de la carpeta `mi_primer_repo_git` (con el Explorador de Archivos o el comando `dir` en la consola).
+    * Revise el contenido de la carpeta del repositorio (con el Explorador de Archivos o el comando `dir` en la consola).
         * **Pregunta:** ¿Continúa existiendo el archivo `segundo_archivo.txt` en la carpeta?
 
 ---
@@ -177,13 +177,13 @@
 ## Ejercicio 7: Trabajar con directorios y archivos nuevos
 
 1.  **Consigna:** Cree una nueva estructura de directorios y agregue archivos dentro de ella.
-    * Dentro de la carpeta `mi_primer_repo_git`, cree un nuevo directorio llamado `documentos`.
+    * Dentro de la carpeta del repositorio, cree un nuevo directorio llamado `documentos`.
     * Ingrese al directorio `documentos` y cree dos archivos de texto:
         * Uno denominado `guia.txt`. Ingrese el texto: `Guía de uso básico.` y guárdelo.
         * Otro denominado `notas.txt`. Ingrese el texto: `Notas varias sobre el proyecto.` y guárdelo.
 
 2.  **Verifique el estado:**
-    * Regrese al directorio principal `mi_primer_repo_git` en la consola si es necesario. Ejecute `git status`.
+    * Regrese al directorio principal del repositorio en la consola si es necesario. Ejecute `git status`.
     * **Pregunta:** ¿Cómo muestra `git status` el nuevo directorio `documentos/` y su contenido? ¿Lo identifica como "Untracked"?
 
 3.  **Prepare el directorio completo:**
@@ -205,7 +205,7 @@
 
 ---
 
-## Ejercicio 8: Desafío - Operaciones ombinadas
+## Ejercicio 8: Desafío - Operaciones combinadas
 
 1.  **Consigna:** Realice las siguientes operaciones antes de ejecutar un único commit:
     * Modifique el archivo `primer_archivo.txt`: ábralo y agregue una nueva sección al final, por ejemplo:
@@ -216,7 +216,7 @@
         ```
         Guarde los cambios.
     * Modifique un archivo dentro de `documentos`: abra `documentos/guia.txt` y agregue al final: `Actualización importante en la guía.` Guarde los cambios.
-    * Cree un archivo nuevo en el directorio raíz del proyecto (`mi_primer_repo_git`) llamado `configuracion.txt` y escriba:
+    * Cree un archivo nuevo en el directorio raíz del proyecto llamado `configuracion.txt` y escriba:
         ```
         configuracion importante del proyecto
         ```
