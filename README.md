@@ -6,30 +6,7 @@
 
 ---
 
-## Ejercicio 1: Creación de un repositorio local
-
-1.  **Cree la carpeta del proyecto:**
-    * Diríjase a una ubicación en su sistema donde almacene sus proyectos (Ej: Documentos, Escritorio).
-    * En esa ubicación, cree una nueva carpeta denominada `mi_primer_repo_git`. Utilice el método de su preferencia (clic derecho -> Nuevo -> Carpeta, o usando  `mkdir mi_primer_repo_git` en Git Bash).
-    * Ingrese a la carpeta recién creada (mediante doble clic o utilizando `cd mi_primer_repo_git` en Git Bash). **Todos los pasos subsiguientes se realizarán dentro de esta carpeta.**
-
-2.  **Inicialice el repositorio Git:**
-    * Dentro de la consola, ubicado en la carpeta `mi_primer_repo_git`, ejecute el siguiente comando:
-        ```bash
-        git init
-        ```
-    * **Pregunta:** ¿Qué mensaje muestra Git tras ejecutar `git init`? ¿Qué indica este mensaje acerca del estado actual de la carpeta?
-
-3.  **Verifique el estado:**
-    * Para consultar el estado actual del repositorio, ejecute:
-        ```bash
-        git status
-        ```
-    * **Pregunta:** ¿Qué información proporciona `git status` en este momento? ¿Indica la rama ("branch") actual? ¿Menciona la existencia de commits o archivos bajo seguimiento?
-
----
-
-## Ejercicio 2: Crear y trackear un archivo
+## Ejercicio 1: Crear y trackear un archivo
 
 1.  **Cree un archivo:**
     * Dentro de la carpeta `mi_primer_repo_git`, cree un archivo de texto simple denominado `primer_archivo.txt`. Puede utilizar el Bloc de notas u otro editor de texto, o crearlo mediante clic derecho -> Nuevo -> Documento de texto y renombrándolo (asegúrese de que la extensión sea `.txt`).
@@ -55,7 +32,7 @@
 
 ---
 
-## Ejercicio 3: Realizar el primer commit
+## Ejercicio 2: Realizar el primer commit
 
 1.  **Confirme los cambios:**
     * Realice una confirmación de cambios en el repositorio. Guarde el estado actual en el historial del repositorio utilizando `git commit`. Es fundamental incluir un mensaje descriptivo utilizando la opción `-m`:
@@ -75,7 +52,7 @@
 
 ---
 
-## Ejercicio 4: Modificar un archivo y confirmar los Cambios
+## Ejercicio 3: Modificar un archivo y confirmar los Cambios
 
 1.  **Modifique el archivo:**
     * Abra nuevamente el archivo `primer_archivo.txt` con su editor de texto.
@@ -108,7 +85,7 @@
 
 ---
 
-## Ejercicio 5: Crear y agregar un nuevo archivo
+## Ejercicio 4: Crear y agregar un nuevo archivo
 
 1.  **Cree un segundo archivo:**
     * En la carpeta `mi_primer_repo_git`, cree un nuevo archivo de texto denominado `segundo_archivo.txt`.
@@ -133,7 +110,7 @@
 
 ---
 
-## Ejercicio 6: Modificar múltiples archivos simultáneamente
+## Ejercicio 5: Modificar múltiples archivos simultáneamente
 
 1.  **Consigna:** Realice modificaciones en los dos archivos existentes (`primer_archivo.txt` y `segundo_archivo.txt`) antes de efectuar el siguiente commit.
     * Modifique `primer_archivo.txt`: Abra el archivo y agregue una nueva línea al final, por ejemplo: `Agregando más detalles al primer_archivo.txt` . Guarde los cambios.
@@ -164,7 +141,7 @@
 
 ---
 
-## Ejercicio 7: Eliminar un archivo del repositorio
+## Ejercicio 6: Eliminar un archivo del repositorio
 
 1.  **Consigna:** Elimine el archivo `segundo_archivo.txt` del proyecto utilizando las herramientas del sistema operativo y luego registre dicha eliminación en Git.
     * Primero, elimine el archivo `segundo_archivo.txt` de la carpeta `mi_primer_repo_git` utilizando el método que prefiera (por ejemplo, seleccionándolo y presionando la tecla Suprimir en el Explorador de Archivos, o ejecutando `del segundo_archivo.txt` en la consola).
@@ -197,7 +174,7 @@
 
 ---
 
-## Ejercicio 8: Trabajar con directorios y archivos nuevos
+## Ejercicio 7: Trabajar con directorios y archivos nuevos
 
 1.  **Consigna:** Cree una nueva estructura de directorios y agregue archivos dentro de ella.
     * Dentro de la carpeta `mi_primer_repo_git`, cree un nuevo directorio llamado `documentos`.
@@ -228,7 +205,7 @@
 
 ---
 
-## Ejercicio 9: Desafío - Operaciones ombinadas
+## Ejercicio 8: Desafío - Operaciones ombinadas
 
 1.  **Consigna:** Realice las siguientes operaciones antes de ejecutar un único commit:
     * Modifique el archivo `primer_archivo.txt`: ábralo y agregue una nueva sección al final, por ejemplo:
